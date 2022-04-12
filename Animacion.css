@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+body{
+    background-color:#B1D4E0;
+}
+ul{
+    list-style-type:none;
+}
+nav ul li a{
+text-decoration:none;
+color: #ffe4c4;
+}
+
+
+.header{
+    font-family:'Syncopate';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+    border-bottom: 1px solid bisque;
+    position: static;
+}
+.header__img{
+    height: 200px;
+    width: 200px;
+}
+.header__nav ul li{
+    display: inline-block;
+    margin-left: 2rem;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+.hero__title{
+    text-decoration: underline;
+    font-size: 40px;
+    font-family:'Syncopate';
+    margin-bottom:6rem;
+}
+.hero__img{
+    height: 550px;
+    width: 550px;
+}
+.hero__section{
+    font-family: 'roboto';
+    font-size: 120%;
+    width: 40%;
+}
+.hero__btn{
+    font-family: inherit;
+    padding: 0.5rem 0.5rem;
+    margin-top: 1.5rem;
+    outline: none;
+    background: none;
+    border:bisque solid;
+    border-radius: 8px;
+    background-color: bisque;
+    
+}
+.sale{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sale__card{
+    text-align: center;
+    width: 400px;
+    background-color: #ffe4c4;
+    border-radius: 20px;
+    font-family: 'roboto';
+    box-shadow:7px 13px 37px #000;
+}
+.subtitle{
+    font-size: 20px;
+    font-family: 'Syncopate';
+    text-align: center;
+    margin-bottom: 5rem;
+    text-decoration:underline ;
+}
+.sale__h3{
+    margin-top: 3rem;
+    font-size: 35px;
+    
+}
+
+footer{
+    font-family: 'roboto';
+}
+
+.section__footer{
+    position: relative;
+    bottom: 0px;
+}
+
+.text__footer{
+    padding: 1rem;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.p__footer{
+    padding: 10px;
+}
+
+.logo__footer{
+    width: 70px;
+    padding-right: 20px;    
+}
+.contact__title{
+    text-decoration: underline;
+    font-family: 'Syncopate';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.form{
+    padding: 30px;
+    width: 400px;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+}
+.form__title{
+    text-decoration: underline;
+    font-family: 'Syncopate';
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+.form__text{
+    padding:0px 0px 10px;
+    margin-bottom: 1rem;
+}
+.shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+
+}
+
+.shop_img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    
+
+
+
+}
+.shop__title{
+    text-align: center;
+    font-family:'Syncopate';
+    margin: 30px;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+.shop__conteiner{
+    align-items: center;
+    background: bisque;
+    margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5)
+
+
+}
+.shop__content{
+    font-family: 'roboto';
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.card__title{
+    margin-bottom: 15px;
+}
+.shop__btn{
+    text-decoration: none;
+    display:inline-block ;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: solid 1px #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.shop__btn:hover{
+    background:#2fb4cc ;
+    color: #fff;
+
+}
+
+
+        
+
+    
